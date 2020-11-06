@@ -21,7 +21,7 @@ class SiteConfigExtension extends DataExtension
     {
 
         $fields->addFieldToTab("Root", new Tab('GoogleAnalytics'));
-        $fields->addFieldsToTab('Root.GoogleAnalyticsLite', [
+        $fields->addFieldsToTab('Root.GoogleAnalytics', [
             TextField::create("MeasurementID", 'Measurement-ID')->setDescription("(G--XXXXXXX)"),
             TextField::create("GoogleAnalyticsLiteCode")->setTitle("Google Analytics Code")->setDescription("(UA-XXXXXX-X)"),
         ]);

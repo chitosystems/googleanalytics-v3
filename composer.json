@@ -21,6 +21,6 @@
     "silverstripe/cms": ">=3.2"
   },
   "extra": {
-    "installer-name": "googleanalytics"
+    "installer-name": "googleanalytics-v3"
   }
 }

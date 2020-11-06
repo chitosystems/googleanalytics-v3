@@ -4,4 +4,4 @@ SiteConfig:
 
 PageController:
   extensions:
-    - ChitoSystems\GoogleAnalytics\Extensions\SiteConfigExtension
+    - ChitoSystems\GoogleAnalytics\Extensions\PageControllerExtension

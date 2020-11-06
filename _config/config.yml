@@ -1,0 +1,7 @@
+SiteConfig:
+  extensions:
+    ChitoSystems\GoogleAnalytics\Extensions\SiteConfigExtension
+
+PageController:
+  extensions:
+    ChitoSystems\GoogleAnalytics\Extensions\SiteConfigExtension
